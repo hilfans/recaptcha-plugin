@@ -84,11 +84,10 @@ function spb_recaptcha_configpage_display() {
     echo '<h2>reCaptcha plugin settings</h2>';
     echo '<form method="post">';
     echo '<input type="hidden" name="nonce" value="' . $nonce . '" />';
-    
+    echo '<p><label for="spb_recaptcha_public_key">reCaptcha site key: </label>';
+    echo '<input type="text" id="spb_recaptcha_public_key" name="spb_recaptcha_public_key" value="' . $pubkey . '"></p>';  
     echo '<p><label for="spb_recaptcha_private_key">reCaptcha secret key: </label>';
     echo '<input type="text" id="spb_recaptcha_private_key" name="spb_recaptcha_private_key" value="' . $privkey . '"></p>';
-    echo '<p><label for="spb_recaptcha_public_key">reCaptcha site key: </label>';
-    echo '<input type="text" id="spb_recaptcha_public_key" name="spb_recaptcha_public_key" value="' . $pubkey . '"></p>';
     echo '<input type="submit"/>';
     echo '</form>';
 }
