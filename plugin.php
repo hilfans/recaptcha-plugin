@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: reCaptcha
-Plugin URI: https://github.com/spbriggs/recaptcha-plugin
-Description: Add reCaptcha to public submission page
+Plugin URI: http://your-own-domain-here.com/articles/hey-test-my-sample-plugin/
+Description: Implement reCaptcha on public submission page
 Version: 1.0
 Author: Simon Briggs
-Author URI: https://github.com/spbriggs
+Author URI: 
 */
 
 function spb_recaptcha_check_Captcha($value, $url, $keyword, $title)
@@ -33,14 +33,14 @@ function spb_recaptcha_check_Captcha($value, $url, $keyword, $title)
 		}
 		else
 		{
-			echo ("Sorry, but you didn't pass the reCaptcha test");
-			return true;
+			$response['message'] ="Sorry, but you didn't pass the reCaptcha test";
+			return $response;
 		}
 	}
 	else
 	{
-		echo ("Sorry, but you didn't pass the reCaptcha test");
-		return true;
+		$response['message'] ="Sorry, but you didn't pass the reCaptcha test";
+		return $response;
 	}
 }
 
