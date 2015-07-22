@@ -25,3 +25,4 @@ Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.
 Notes
 -----
 There is a sample public front page PHP file in the repository.
+The reCaptcha will only show for non-logged in users. Log out of admin or pen a private browsing session to check that it works.
