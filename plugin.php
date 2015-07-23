@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: reCaptcha
-Plugin URI: http://your-own-domain-here.com/articles/hey-test-my-sample-plugin/
+Plugin URI: https://github.com/spbriggs/recaptcha-plugin/
 Description: Implement reCaptcha on public submission page
 Version: 1.0
 Author: Simon Briggs
-Author URI: 
+Author URI: https://github.com/spbriggs/
 */
 
 function spb_recaptcha_check_Captcha($value, $url, $keyword, $title)
