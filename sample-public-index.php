@@ -82,7 +82,14 @@ if ( isset( $_REQUEST['url'] ) && $_REQUEST['url'] != 'http://' ) {
 		<p><label>Optional custom short URL: $site/<input type="text" class="text" name="keyword" /></label></p>
 		<p><label>Optional title: <input type="text" class="text" name="title" /></label></p>
 HTML;
+		// Uncomment one of these function calls depending on which captcha you want to use
+		// Only use one of the captchas
+
+		// Use this function call for Google reCaptcha
 		spb_recaptcha_add_Captcha_Script();
+		// Use this function call for Solve Media
+		//spb_recaptcha_add_SolveMedia_Script();();
+
 		echo <<<HTML
 		<p><input type="submit" class="button primary" value="Shorten" /></p>
 		</form>	
