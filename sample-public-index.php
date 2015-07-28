@@ -88,7 +88,7 @@ HTML;
 		// Use this function call for Google reCaptcha
 		spb_recaptcha_add_Captcha_Script();
 		// Use this function call for Solve Media
-		//spb_recaptcha_add_SolveMedia_Script();();
+		//spb_recaptcha_add_SolveMedia_Script();
 
 		echo <<<HTML
 		<p><input type="submit" class="button primary" value="Shorten" /></p>
