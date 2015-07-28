@@ -3,7 +3,7 @@
 Plugin Name: reCaptcha
 Plugin URI: https://github.com/spbriggs/recaptcha-plugin/
 Description: Implement reCaptcha on public submission page
-Version: 1.1beta
+Version: 1.1
 Author: Simon Briggs
 Author URI: https://github.com/spbriggs/
 */
