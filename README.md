@@ -9,13 +9,13 @@ Spam protection for public YOURLS installations. Any unauthenticated user is req
 
 Installation
 ------------
-1. In `/user/plugins`, create a new folder named reCaptcha.
-2. Drop the plugin.php file in that directory.
-3. Go to the Plugins administration page ( *eg* `http://sho.rt/admin/plugins.php` ) and activate the plugin.
+1.  In `/user/plugins`, create a new folder named reCaptcha.
+2.  Drop the plugin.php file in that directory.
+3.  Go to the Plugins administration page ( *eg* `http://sho.rt/admin/plugins.php` ) and activate the plugin.
 4. 
 4a. (reCaptcha) Sign up for a reCaptcha key at [Google](https://www.google.com/recaptcha/admin)
 4b. (SolveMedia) Sign up for a Solve Media key at [Solve Media](https://portal.solvemedia.com/portal/public/signup)
-5. On the Plugins administration page > reCapture Settings paste in your reCaptcha keys
+5.  On the Plugins administration page > reCapture Settings paste in your reCaptcha keys
 6. 
 6a. (reCaptcha) In your public front front page PHP file paste the following code where you want the reCaptcha displayed
       spb_recaptcha_add_Captcha_Script();
